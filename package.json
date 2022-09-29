@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "cypress-cucumber-preprocessor": {
+
+    "specPattern": "cypress/e2e/BDD/*.feature",
     "nonGlobalStepDefinitions": true
   },
   "author": "",
